@@ -1,0 +1,4 @@
+add_executable(ExponentialTests exponential/ExponentialTests.cpp)
+add_executable(ExpressionTests expression/ExpressionTests.cpp)
+target_link_libraries(ExponentialTests PRIVATE Catch2::Catch2WithMain Exponential)
+target_link_libraries(ExpressionTests PRIVATE Catch2::Catch2WithMain Exponential Expression)
