@@ -1,7 +1,8 @@
 #ifndef HOMEWORK2_LIBS_EXPRESSION_INCLUDE_DIVIDE_H_
 #define HOMEWORK2_LIBS_EXPRESSION_INCLUDE_DIVIDE_H_
 
-class Divide{
+class Divide {
+
 };
 
 #endif
